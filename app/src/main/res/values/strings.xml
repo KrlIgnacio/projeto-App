@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">São Gabriel</string>
+    <string name="texto_aprender_crescer">Aprender é crescer</string>
+    <string name="texto_entrar">Entrar</string>
+    <string name="descicao_logo">Logotipo da Empresa São Gabriel</string>
+    <string name="senha">Insira a senha de verificação: </string>
+    <string name="icone">Icone de login </string>
+</resources>
+

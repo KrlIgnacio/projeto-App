@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/logoApp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_app"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+       />
+
+    <TextView
+        android:id="@+id/textoAprenderCrescer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_aprender_crescer"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#3D85C6"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@string/descicao_logo"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/botaoEntrar"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3D85C6"
+        android:text="@string/texto_entrar"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
